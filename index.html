@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Number Guessing Game</title>
     <style>
-        /* Basic page styling */
+       
         body {
             font-family: 'Arial', sans-serif;
             background: linear-gradient(135deg, #f06, #4e73df);
@@ -108,7 +108,7 @@
             background-color: #d14c39;
         }
 
-        /* Animation for success */
+        
         .game-container.success {
             transform: scale(1.05);
             animation: pulse 0.5s infinite alternate;
@@ -137,7 +137,7 @@
     </div>
 
     <script>
-        // Variables
+        
         let randomNumber = Math.floor(Math.random() * 100) + 1;
         let attempts = 0;
         let gameOver = false;
@@ -184,7 +184,7 @@
             }
         });
 
-        // Reset game
+        
         resetButton.addEventListener('click', function() {
             randomNumber = Math.floor(Math.random() * 100) + 1;
             attempts = 0;
